@@ -1,0 +1,14 @@
+1.
+error: Execution was interrupted, reason: EXC_BREAKPOINT (code=1, subcode=0x18bcdbc84).
+The process has been left at the point where it was interrupted, use "thread return -x" to return to the state before expression evaluation.
+
+
+이 Swift 에러는 실행 중에 프로그램이 강제로 중단되었음을 나타냅니다. 이러한 종류의 중단은 보통 디버깅 중에 발생하며, 프로그램의 특정 지점에서 실행이 중단되었고 중단된 상태에서 프로그램의 상태를 분석하거나 디버깅 작업을 수행할 수 있습니다.
+
+에러 메시지의 일부인 "EXC_BREAKPOINT (code=1, subcode=0x18bcdbc84)"는 중단이 발생한 종류를 나타내는 것으로 보입니다. 
+이는 프로그램이 디버깅 중인데 중단 지점에서 브레이크포인트(breakpoint)가 설정되어 중단되었다는 것을 의미할 수 있습니다.
+
+에러 메시지에 제시된 "thread return -x"와 같은 명령은 중단된 상태에서 실행을 다시 시작하거나 이전 상태로 돌아가는 명령입니다. 
+하지만 이러한 명령은 주로 디버깅 작업을 수행할 때 사용되며, 디버깅 환경과 상황에 따라 의미가 달라질 수 있습니다.
+
+이 에러 메시지는 단순히 프로그램의 실행이 중단되었음을 알리는 것이므로, 해당 프로그램이 어떤 코드에서 중단되었는지, 어떤 조건에서 이러한 중단이 발생했는지 등에 대한 추가적인 정보가 필요할 것입니다.
