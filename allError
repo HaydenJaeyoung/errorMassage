@@ -12,3 +12,13 @@ The process has been left at the point where it was interrupted, use "thread ret
 하지만 이러한 명령은 주로 디버깅 작업을 수행할 때 사용되며, 디버깅 환경과 상황에 따라 의미가 달라질 수 있습니다.
 
 이 에러 메시지는 단순히 프로그램의 실행이 중단되었음을 알리는 것이므로, 해당 프로그램이 어떤 코드에서 중단되었는지, 어떤 조건에서 이러한 중단이 발생했는지 등에 대한 추가적인 정보가 필요할 것입니다.
+
+
+
+2. Value of type 'String' has no member 'components'
+
+import Foundation 이 되어있지 않아서 components 메서드를 불러오지 못해 난 오류.
+
+
+3. Output size differs : 프로그래머스를 풀다가 반환하는 문제가 아닌 출력하는 문제를 만났는데, 출력을 안 해줘서 에러가 났음. 
+프린트문 하나만 더 붙여주니 해결됨 
